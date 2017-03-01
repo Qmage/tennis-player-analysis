@@ -1,0 +1,30 @@
+Pearson's product-moment correlation
+
+data:  df$height and df$current_rank
+t = 4.3069, df = 1238, p-value = 1.787e-05
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.06627802 0.17597762
+sample estimates:
+      cor 
+0.1214988 
+
+
+Spearman's rank correlation rho
+
+data:  df$height and df$current_rank
+S = 279740000, p-value = 2.389e-05
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.1196733 
+
+
+Kendall's rank correlation tau
+
+data:  df$height and df$current_rank
+z = 4.1461, p-value = 3.382e-05
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+       tau 
+0.08156836 
